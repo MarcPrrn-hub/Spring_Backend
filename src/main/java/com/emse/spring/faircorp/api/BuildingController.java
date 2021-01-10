@@ -24,6 +24,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/api/buildings")
 @Transactional
 
+@CrossOrigin
 public class BuildingController {
 
     private final BuildingDao buildingDao;

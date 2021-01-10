@@ -22,6 +22,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/api/rooms")
 @Transactional
 
+@CrossOrigin
 public class RoomController {
 
     private final WindowDao windowDao;
